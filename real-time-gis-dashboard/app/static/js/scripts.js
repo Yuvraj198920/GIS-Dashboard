@@ -78,3 +78,13 @@ function searchLocation(event) {
     );
   }
 }
+
+function fetchNewData(lat, lon) {
+  $.get(`/data?lat=${lat}&lon=${lon}`, function (data) {
+    console.log("New data for searched location:", data);
+
+    // Update charts and data table with new data
+    updateCharts(data);
+    updateDataTable(data);
+  });
+}
