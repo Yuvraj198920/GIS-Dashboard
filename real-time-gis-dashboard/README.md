@@ -15,6 +15,6 @@ This project is a real-time GIS dashboard that fetches and displays live geospat
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/real-time-gis-dashboard.git
+   git clone https://github.com/Yuvraj198920/GIS-Dashboard.git
    cd real-time-gis-dashboard
    ```
