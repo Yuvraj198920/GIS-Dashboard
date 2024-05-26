@@ -1,0 +1,6 @@
+flask
+flask-socketio
+requests
+geopy
+pandas
+geopandas
